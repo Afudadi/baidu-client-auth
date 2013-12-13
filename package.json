@@ -12,7 +12,7 @@
   },
   "keywords": [
     "baidu",
-    "auth"
+    "oauth"
   ],
   "author": "HJin_me",
   "license": "MIT",
@@ -23,6 +23,7 @@
   "dependencies": {
     "qrcode-terminal": "0.9.x",
     "request": "2.x",
-    "when": "2.7.x"
+    "when": "2.7.x",
+    "colors": "*"
   }
 }

@@ -3,12 +3,20 @@
  */
 
 module.exports = {
+  AK: '',
+  SK: '',
   API_ENTRY: "https://openapi.baidu.com/rest/2.0",
-  BAE_APP_CONFIG: ".baeapp",
-  DEV_APP_CONFIG: ".devapp",
-  BAE_GLOBAL_CONFIG: ".bae",
+  DWZ_URL: 'http://dwz.cn/create.php',
+  REQUEST_TOKEN_URL: 'https://openapi.baidu.com/oauth/2.0/token',
+  REQUEST_TOKEN: {
+    grant_type: 'device_token',
+    code: '',
+    client_id: '',
+    client_secret: ''
+  },
+  REQUEST_CODE_URL: 'https://openapi.baidu.com/oauth/2.0/device/code',
   REQUEST_CODE: {
-    client_id: 'DNbS8yG3IltI1Q1n3sogr41O',
+    client_id: '',
     response_type: 'device_code',
     scope: 'basic'
   }

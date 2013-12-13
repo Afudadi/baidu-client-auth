@@ -1,7 +1,7 @@
 {
   "name": "baidu-client-auth",
-  "version": "0.0.1",
-  "description": "Login Baidu Account and get AccessToken in terminal.",
+  "version": "0.0.2",
+  "description": "request AccessToken of Baidu Passport in Terminal by Oauth.",
   "main": "./lib/bdauth",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
